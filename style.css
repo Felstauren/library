@@ -1,0 +1,41 @@
+dialog[open]{
+    display: flex;
+    flex-direction: column;
+}
+
+.book {
+    border: 1px solid black;
+    height: 30vh;
+    width: 10vw;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.displayBooks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2vi;
+    padding: 5vi;
+}
+
+
+.title {
+    font-size: 2vi;
+    font-weight: bolder;
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vi 2vi;
+}
+
+.box-1>*:hover {
+    cursor: pointer;
+    background-color: gray;
+    height: 1vi;
+    width: 2vi;
+    border-radius: 1vi;
+}
+
